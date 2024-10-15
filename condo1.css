@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+        .container {
+            width: 80%;
+            margin: 50px auto;
+        }
+        .property-details img {
+            width: 50%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .property-details h1 {
+            margin: 20px 0;
+        }
+        .property-details p {
+            font-size: 1.2em;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+        .buy-now-btn {
+            display: inline-block;
+            background-color: #09aadb;
+            color: white;
+            padding: 15px 30px;
+            text-align: center;
+            font-size: 1.2em;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .buy-now-btn:hover {
+            background-color: #218838;
+        }
+        nav {
+                background-color: #008080;
+                overflow: hidden;
+                position: sticky;
+                top: 0;
+                z-index: 1000;
+            }
+        
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        
+        nav a:hover {
+            background-color: #575757;
+        }
+   
